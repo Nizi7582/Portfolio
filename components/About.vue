@@ -16,16 +16,16 @@
                 </p>
                 <ul class="list-none mt-6">
                     <li class="py-2">
-                    <div class="flex items-center">
+                      <div class="flex items-center">
                         <div>
-                        <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i class="fas fa-fingerprint"></i></span>
+                          <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i class="fas fa-fingerprint"></i></span>
                         </div>
                         <div>
-                        <h4 class="text-blueGray-500">
-                            Carefully crafted components
-                        </h4>
+                          <h4 class="text-blueGray-500">
+                              Carefully crafted components
+                          </h4>
                         </div>
-                    </div>
+                      </div>
                     </li>
                     <li class="py-2">
                     <div class="flex items-center">
@@ -40,10 +40,10 @@
                     <li class="py-2">
                     <div class="flex items-center">
                         <div>
-                        <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i class="far fa-paper-plane"></i></span>
+                          <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i class="far fa-paper-plane"></i></span>
                         </div>
                         <div>
-                        <h4 class="text-blueGray-500">Dynamic components</h4>
+                          <h4 class="text-blueGray-500">Dynamic components</h4>
                         </div>
                     </div>
                     </li>
