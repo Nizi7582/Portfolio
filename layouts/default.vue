@@ -7,6 +7,14 @@
 </template>
   
 <style>
-
+.text-main {
+  color: rgba(203, 233, 35, 0.993)
+}
+.border-main {
+  border-color: rgba(222, 255, 34, 0.993)
+}
+.bg-main {
+  background-color: rgb(70, 80, 14)
+}
 </style>
   
