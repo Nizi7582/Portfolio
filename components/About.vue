@@ -2,7 +2,7 @@
     <div>
         <div class="items-center flex flex-wrap">
             <div class="w-full md:w-4/12 ml-auto mr-auto px-4 container_outer_img img-inner">
-                <img alt="..." class="max-w-md rounded-lg shadow-lg container_img" src="~/assets/nizaar.jpg">
+                <img alt="Nizaar" class="max-w-md rounded-lg shadow-lg container_img" src="~/assets/nizaar.jpg">
             </div>
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div class="md:pr-12">

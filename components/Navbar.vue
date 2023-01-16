@@ -1,14 +1,14 @@
 <template>
-  <div class="blur max-w-7xl w-full mx-auto z-20 top-0 fixed animate__animated animate__fadeInDown">
+  <div class="bg-white max-w-7xl w-full mx-auto z-20 top-0 fixed animate__animated animate__fadeInDown">
     <div class="mx-auto py-3 px-5">
       <div class="relative flex items-center ">
         <div
           class="flex items-center justify-center sm:justify-between w-full"
         >
-          <div class="flex items-center space-x-6">
+          <nuxt-link to="/" class="flex items-center space-x-6">
             <div class="text-xl font-bold text-gray-900 police p-2">Nizaar Znagui</div>
             <div class="text-md font-semibold text-gray-900 uppercase">Web Developper</div>
-          </div>
+          </nuxt-link>
           <div class="hidden sm:block sm:ml-6">
               
             <div class="flex items-center justify-between space-x-8">

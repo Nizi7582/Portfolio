@@ -105,9 +105,6 @@
                               </div>
                               
                           </div>
-                          <div class="hidden lg:flex lg:col-span-2">
-
-                          </div>
                           <div class="group relative rounded-2xl flex items-center justify-center space-y-6 overflow-hidden bg-gray-200 py-10">
                               <img
                               class="mx-auto w-20 -mt-4 object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
@@ -138,9 +135,72 @@
                                       <h4 class="text-xl font-semibold text-gray-800">Ionic</h4>
                                   </div>
                               </div>
+                          </div>
+                          <div class="group relative rounded-2xl flex items-center justify-center space-y-6 overflow-hidden bg-gray-200 py-10">
+                              <img
+                              class="mx-auto w-24 -mt-4 object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                              src="~/assets/skills/python.png"
+                              alt="woman"
+                              loading="lazy"
+                              width="640"
+                              height="805"
+                              />
+                              <div class="absolute bg-gray mx-auto bottom-0 inset-x-0 h-max mt-auto px-4 py-1 translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+                                  <div class="text-center">
+                                      <h4 class="text-xl font-semibold text-gray-800">Python</h4>
+                                  </div>
+                              </div>
                               
                           </div>
-
+                          <div class="group relative rounded-2xl flex items-center justify-center space-y-6 overflow-hidden bg-gray-200 py-10">
+                              <img
+                              class="mx-auto w-20 -mt-4 object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                              src="~/assets/skills/mysql.png"
+                              alt="woman"
+                              loading="lazy"
+                              width="640"
+                              height="805"
+                              />
+                              <div class="absolute bg-gray mx-auto bottom-0 inset-x-0 h-max mt-auto px-4 py-1 translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+                                  <div class="text-center">
+                                      <h4 class="text-xl font-semibold text-gray-800">MySQL</h4>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="group relative rounded-2xl flex items-center justify-center space-y-6 overflow-hidden bg-gray-200 py-10">
+                              <img
+                              class="mx-auto w-20 -mt-4 object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                              src="~/assets/skills/awslambda.svg"
+                              alt="woman"
+                              loading="lazy"
+                              width="640"
+                              height="805"
+                              />
+                              <div class="absolute bg-gray mx-auto bottom-0 inset-x-0 h-max mt-auto px-4 py-1 translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+                                  <div class="text-center">
+                                      <h4 class="text-xl font-semibold text-gray-800">AWS Lambda</h4>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="group relative rounded-2xl flex items-center justify-center space-y-6 overflow-hidden bg-gray-200 py-10">
+                              <img
+                              class="mx-auto w-24 -mt-4 object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                              src="~/assets/skills/awss3.png"
+                              alt="woman"
+                              loading="lazy"
+                              width="640"
+                              height="805"
+                              />
+                              <div class="absolute bg-gray mx-auto bottom-0 inset-x-0 h-max mt-auto px-4 py-1 translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+                                  <div class="text-center">
+                                      <h4 class="text-xl font-semibold text-gray-800">AWS S3</h4>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          
                       </div>
                   </div>
                 </div>
