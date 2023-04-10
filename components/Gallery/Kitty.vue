@@ -108,8 +108,6 @@ export default {
 </script>
 
 <style scoped>
-.bg-kity {
-    background-image: url("~/assets/bubble.png");
-    background-repeat: no-repeat;
-}
+
+
 </style>

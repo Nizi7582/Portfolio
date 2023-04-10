@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="py-20 bg-bubble bg-gray-100">
+        <section class="py-20 bg-gray-100 rounded-t-3xl">
             <div class="container mx-auto flex flex-col items-center justify-center p-4 md:p-10">
             <div class="police text-green-400 text-5xl font-semibold">Are you</div>
             <h1 class="text-5xl font-bold leading-none text-center">Interested in my profile ?</h1>

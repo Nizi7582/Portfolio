@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full bg-gray-100">
+    <div class="h-full bg-gray-100 rounded-b-3xl rounded-tr-3xl">
         <div clas="">
             <div class="pl-20 -mt-32 pt-20 ">
             <div class="police text-green-500 text-5xl font-semibold">About Me</div>

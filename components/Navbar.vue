@@ -1,39 +1,28 @@
 <template>
-  <div class="bg-white max-w-7xl w-full mx-auto z-20 top-0 fixed animate__animated animate__fadeInDown">
+  <div class="max-w-7xl w-full mx-auto z-20 top-0 absolute animate__animated animate__fadeInDown">
     <div class="mx-auto py-3 px-5">
       <div class="relative flex items-center ">
         <div
           class="flex items-center justify-center sm:justify-between w-full"
         >
           <nuxt-link to="/" class="flex items-center space-x-6">
-            <div class="text-xl font-bold text-gray-900 police p-2">Nizaar Znagui</div>
-            <div class="text-md font-semibold text-gray-900 uppercase">Web Developper</div>
+            <div class="text-xl font-bold text-gray-200 police p-2">Nizaar Znagui</div>
+            <div class="text-md font-semibold text-gray-200 uppercase">Web Developper</div>
           </nuxt-link>
           <div class="hidden sm:block sm:ml-6">
               
             <div class="flex items-center justify-between space-x-8">
               
-              <a
-                href="/#about"
-                class="text-gray-900 px-3 py-2 text-md font-medium link link-underline link-underline-black"
+              <nuxt-link
+                to="/about"
+                class="text-gray-200 px-3 py-2 text-md font-medium link link-underline link-underline-black"
                 aria-current="page"
-                >Home</a
+                >Home</nuxt-link
               >
-              <a
-                href="/#about"
-                class="text-gray-900 px-3 py-2 text-md font-medium link link-underline link-underline-black"
-                aria-current="page"
-                >About</a
-              >
-              <a
-                href="/#skills"
-                class="text-gray-900 hover:text-gray-900 px-3 py-2 text-md font-medium link link-underline link-underline-black"
-                >Skills</a
-              >
-              <a
-                href="/#works"
-                class="text-gray-900 hover:text-gray-900 px-3 py-2 text-md font-medium link link-underline link-underline-black"
-                >Works</a
+              <nuxt-link
+                to="/works/"
+                class="text-gray-200 hover:text-gray-200 px-3 py-2 text-md font-medium link link-underline link-underline-black"
+                >Works</nuxt-link
               >
             </div>
           </div>
@@ -44,24 +33,18 @@
     <!-- Mobile menu, show/hide based on menu state. -->
     <div class="sm:hidden" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1">
-        <!-- Current: "bg-gray-900 text-gray-900", Default: "text-gray-300 hover:bg-gray-700 hover:text-gray-900" -->
-        <a
-          href="#"
-          class="bg-gray-900 text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
+        <!-- Current: "bg-gray-900 text-gray-200", Default: "text-gray-300 hover:bg-gray-700 hover:text-gray-200" -->
+        <nuxt-link
+          to="#"
+          class="bg-gray-900 text-gray-200 block px-3 py-2 rounded-md text-base font-medium"
           aria-current="page"
-          >Présentation</a
+          >Home</nuxt-link
         >
 
-        <a
-          href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-          >Projets</a
-        >
-
-        <a
-          href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-          >Objectifs</a
+        <nuxt-link
+          to="#"
+          class="text-gray-300 hover:bg-gray-700 hover:text-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+          >Works</nuxt-link
         >
 
       </div>

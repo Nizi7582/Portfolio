@@ -20,8 +20,8 @@
           <!-- End of Header -->
 
           <!-- Gallery Section -->
-          <div class="h-full bg-gray-100">
-            <div clas="">
+          <div class="h-full bg-gray-100 rounded-3xl">
+            <div class="">
 
                 <!-- Title -->
                 <div class="pl-20 pt-20 ">
@@ -39,7 +39,7 @@
                     <div class="container mx-auto">
                       <div class="grid grid-cols-3 -m-1 md:-m-2">
                       <!-- My cat Category -->
-                        <div class="flex flex-wrap group cursor-pointer" @click="kity = true">
+                        <div class="scope flex flex-wrap group cursor-pointer" @click="kity = true">
                           <div class="w-full p-1 md:p-2 relative">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg transition duration-300 group-hover:opacity-80" 
                             src="~/assets/kity/kity8.jpg">
@@ -49,7 +49,7 @@
                       <!-- End of Cat -->
 
                       <!-- Travel Category -->
-                        <div class="flex flex-wrap group cursor-pointer" @click="voyage = true">
+                        <div class="scope flex flex-wrap group cursor-pointer" @click="voyage = true">
                           <div class="w-full p-1 md:p-2 relative">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg transition duration-300 group-hover:opacity-80" 
                             src="~/assets/voyages/states.jpg">
@@ -59,7 +59,7 @@
                       <!-- End of Travel -->
 
                       <!-- Hobbies Category -->
-                        <div class="flex flex-wrap group cursor-pointer">
+                        <div class="scope flex flex-wrap group cursor-pointer">
                           <div class="w-full p-1 md:p-2 relative">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg transition duration-300 group-hover:opacity-80" 
                              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp">
@@ -104,11 +104,6 @@ export default {
 
 <style>
 /* Custom Background */
-.bg-bubble {
-  background-image: url("~/assets/bubble.png");
-  background-repeat: no-repeat;
-}
-
 .grow { transition: all .2s ease-in-out; }
 
 .grow:hover { transform: scale(0.8); }
@@ -121,7 +116,5 @@ export default {
 	transition: .3s ease-in-out;
 }
 
-#home {
-  background-image: url("~/assets/bubble.png");
-}
+
 </style>

@@ -1,9 +1,12 @@
 <template>
-  <div class="max-w-7xl mx-auto">
+  <div class="bg-gray-800">
+    <div class="max-w-7xl mx-auto">
     <Navbar />
     <Nuxt/>
     <Footer />
   </div>
+  </div>
+  
 </template>
   
 <style>
