@@ -59,7 +59,7 @@
       <nuxt-link to="./troi" class="section-col">
         <div class="section">
           <div class="section-in">
-            <img src="~/assets/projects/bg-troi.PNG" alt="" />
+            <img src="~/assets/projects/bg-troi.png" alt="" />
           </div>
         </div>
       </nuxt-link>
