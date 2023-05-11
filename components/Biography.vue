@@ -11,10 +11,10 @@
             </div>
             <div class="px-20 pt-12 pb-20">
             <div class="text-gray-900 font-semibold text-2xl">
-                I'm a 18's years old guy, studying and living in France.
+                I'm an 18 year old guy, studying and living in France.
                 I was always interested in IT, but decided to make it my life after discovering the web universe.
                 Ready to learn anything to reach the best possible result.
-                Known as cheerful, i always seek the fun in everything
+                Known as cheerful, i'm seeking fun in everything.
             </div>
             </div>
         </div>
