@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-green-500 mx-7 px-6" aria-labelledby="footer-heading">
+  <footer class="bg-green-500 px-6" aria-labelledby="footer-heading">
     <div class="flex items-center grid grid-cols-3">
         <div class="flex space-x-4">
         <!--<img src="~/assets/github.png" class="w-10 h-10" /> -->

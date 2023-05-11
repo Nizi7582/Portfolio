@@ -14,16 +14,22 @@
             <div class="flex items-center justify-between space-x-8">
               
               <nuxt-link
-                to="/about"
+                to="/works/"
                 class="text-gray-200 px-3 py-2 text-md font-medium link link-underline link-underline-black"
                 aria-current="page"
-                >Home</nuxt-link
-              >
-              <nuxt-link
-                to="/works/"
-                class="text-gray-200 hover:text-gray-200 px-3 py-2 text-md font-medium link link-underline link-underline-black"
                 >Works</nuxt-link
               >
+              <nuxt-link
+                to="/tech"
+                class="text-gray-200 hover:text-gray-200 px-3 py-2 text-md font-medium link link-underline link-underline-black"
+                >Technology Monitoring</nuxt-link
+              >
+              <nuxt-link
+                to="/table"
+                class="text-gray-200 hover:text-gray-200 px-3 py-2 text-md font-medium link link-underline link-underline-black"
+                >Skill Table</nuxt-link
+              >
+              
             </div>
           </div>
         </div>
@@ -35,16 +41,21 @@
       <div class="px-2 pt-2 pb-3 space-y-1">
         <!-- Current: "bg-gray-900 text-gray-200", Default: "text-gray-300 hover:bg-gray-700 hover:text-gray-200" -->
         <nuxt-link
-          to="#"
+          to="/works/"
           class="bg-gray-900 text-gray-200 block px-3 py-2 rounded-md text-base font-medium"
           aria-current="page"
-          >Home</nuxt-link
+          >Works</nuxt-link
         >
 
         <nuxt-link
-          to="#"
+          to="/tech"
           class="text-gray-300 hover:bg-gray-700 hover:text-gray-200 block px-3 py-2 rounded-md text-base font-medium"
-          >Works</nuxt-link
+          >Technology Monitoring</nuxt-link
+        >
+        <nuxt-link
+          to="/table"
+          class="text-gray-300 hover:bg-gray-700 hover:text-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+          >Skill table</nuxt-link
         >
 
       </div>
@@ -65,7 +76,7 @@
 
 .link-underline-black {
   background-image: linear-gradient(transparent, transparent),
-    linear-gradient(rgba(222, 255, 34, 0.9), rgba(159, 255, 34, 0.916));
+    linear-gradient(rgba(50, 222, 136, 0.9), rgba(34, 255, 156, 0.916));
 }
 
 .link-underline:hover {

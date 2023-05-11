@@ -1,6 +1,6 @@
 <template>
-  <div class="section-fluid-main">
-    <div class="text-center font-bold text-5xl text-gray-900 md:text-6xl py-10">
+  <div class="section-fluid-main pb-14">
+    <div class="text-center font-bold text-5xl text-gray-900 md:text-6xl pt-32 pb-14">
       <div class="police text-green-400 text-5xl font-semibold">Discover</div>
       <div class="text-gray-300">My projects</div>
       <div class="bg-green-400 h-2 w-32 mt-8 mx-auto"></div>
@@ -105,7 +105,8 @@ p {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  padding: 100px 0;
+  padding-left: 100px 0;
+  padding-right: 100px 0;
 }
 .section-row {
   display: -ms-flexbox;

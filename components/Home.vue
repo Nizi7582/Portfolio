@@ -10,7 +10,7 @@
 
                 <div class="mt-12">
                     <div class="text-2xl ">
-                    <a href="#_" class="relative px-6 py-3 font-bold text-black group">
+                    <a href="https://portfoliochelseajobin.fr/wp-content/uploads/2023/04/CV_Nizaar_Znagui-1.pdf" target="_blank" class="relative px-6 py-3 font-bold text-black group">
                         <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-gray-300 group-hover:translate-x-0 group-hover:translate-y-0"></span>
                         <span class="absolute inset-0 w-full h-full border-4 border-black"></span>
                         <span class="relative uppercase">Check my cv</span>
@@ -22,7 +22,7 @@
 
         </div>
         <div class="ml-auto mr-10 animate__animated animate__fadeInDown">
-            <img src="~/assets/Nizaar7.jpg" class="relative w-full rounded-3xl" alt="food illustration" loading="lazy" width="100" height="450">
+            <img src="~/assets/Nizaar7.jpg" class="relative w-full rounded-3xl" alt="own illustration" loading="lazy" width="100" height="450">
         </div>
     </div>
 </template>
